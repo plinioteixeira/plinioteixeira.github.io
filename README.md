@@ -1,2 +1,2 @@
-# plinioteixeira.github.io
+# portfólio do Plinio
 portfólio de projetos Front-End
