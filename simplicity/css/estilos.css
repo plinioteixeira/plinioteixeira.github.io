@@ -49,6 +49,9 @@ header {
     position: sticky;
     top: 0;
 
+    /* Ajuste de profundidade (eixo Z) 
+    Quanto maior, mais á frente fica */
+    z-index: 1000;
 }
 
 /* regra para um elemento (no caso, uma div) coma classe limitador e dentro do header 
@@ -104,7 +107,7 @@ nav h2 a:focus,
     color: black;
     font-weight: bold;
     
-    /* background-color: yellow; */
+    background-color: whitesmoke;
     height: 50px; /* heigth: tem o significado de altura */
     display: flex;
     justify-content: center;
