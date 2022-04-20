@@ -16,7 +16,8 @@ botaoLocalizar.addEventListener("click", function(event) {
     let cep = inputCep.value;
 
     /* CEP no padrão da API */
-    let url = `http://viacep.com.br/ws/${cep}/json/`;
+    let url = `https://viacep.com.br/ws/${cep}/json/`;
+    
     // let url = "http://viacep.com.br/ws/"+cep+"/json/"
 
     /* Ajax: comunicação assíncrona com o ViaCEP usando chamada fetch.  */
